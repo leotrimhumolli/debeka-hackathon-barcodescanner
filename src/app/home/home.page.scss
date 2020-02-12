@@ -1,0 +1,70 @@
+@import "../variables";
+
+.bg-class {
+  --background: linear-gradient(180deg, rgba(57, 245, 167, 1) 50%, rgba(0, 158, 253, 1) 100%);
+}
+
+.item.item-trns {
+  --background: transparentize();
+}
+
+ion-icon {
+  &.big {
+    width: 25px;
+    height: 25px;
+  }
+
+  &.bigger {
+    margin-top: -6px;
+    margin-left: -6px;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.input--transparent {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  color: white;
+  margin-top: .4rem;
+  @include normal-font;
+}
+
+.input--transparent::-moz-placeholder {
+  color: white;
+}
+
+.input--transparent:-ms-input-placeholder {
+  color: white;
+}
+
+.input--transparent::-webkit-input-placeholder {
+  color: white;
+}
+
+.button--dark {
+  height: 35px;
+  --border-radius: 5px;
+  font-size: 0.7rem;
+  @include button-font;
+}
+
+.mt-3 {
+  margin-top: 3rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+a.login-textlink:link, a.login-textlink:visited {
+  color: #000000;
+  text-decoration: none;
+  display: inline-block;
+  @include small-font;
+}
+

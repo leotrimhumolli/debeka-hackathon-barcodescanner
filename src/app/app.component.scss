@@ -1,0 +1,42 @@
+@import "variables";
+
+.bg-class-header {
+  --background: transparentize();
+}
+
+.bg-class-content {
+  --background: linear-gradient(180deg, rgba(57, 245, 167, 1) 75%, rgba(0, 158, 253, 1) 100%);
+}
+
+ion-toolbar {
+  --background: transparent !important;
+  --ion-color-base: transparent !important;
+}
+
+.profile-header {
+  text-transform: uppercase;
+  @include normal-font;
+}
+
+.profile-text {
+  @include small-font;
+}
+
+ion-icon {
+  &.big {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+  }
+
+  &.bigger {
+    margin-top: -6px;
+    margin-left: -6px;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.menuitem-text {
+  @include normal-font;
+}

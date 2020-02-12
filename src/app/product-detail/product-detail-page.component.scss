@@ -1,0 +1,32 @@
+@import "../variables";
+
+.normal-font {
+  @include normal-font;
+}
+
+
+.product-image {
+  max-height: 150px;
+  img {
+    max-height: 100px;
+  }
+}
+.image-value {
+  font-weight: bold;
+  @include normal-font;
+}
+
+.image-value-description {
+  text-transform: uppercase;
+  @include small-font;
+}
+
+.expand-wrapper {
+  transition: max-height 0.4s ease-in-out;
+  overflow: hidden;
+  height: auto;
+}
+
+.collapsed {
+  max-height: 0 !important;
+}

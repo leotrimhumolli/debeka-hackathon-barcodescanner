@@ -1,0 +1,25 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-menu-toggle>
+                <img src="./assets/icon_menu_colorful.svg" width="32px">
+            </ion-menu-toggle>
+        </ion-buttons>
+        <ion-title class="ion-text-center">
+            <img src="../assets/icon_i--black.svg" width="32px">
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <div class="content">
+        <ion-searchbar color="secondary" placeholder="Suchen" animated></ion-searchbar>
+        <br/><br/><br/>
+        <ion-button color="primary" size="large" (click)="scan()" expand="block"
+                    style="padding-left: 5px; padding-right: 5px">
+            <ion-icon class="big" src="./assets/icon_menu_scan.svg">
+            </ion-icon>
+            Barcode Scannen
+        </ion-button>
+    </div>
+</ion-content>

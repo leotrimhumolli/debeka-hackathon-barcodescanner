@@ -1,0 +1,14 @@
+@mixin small-font {
+  font-size: 14px;
+  font-family: "Segoe UI";
+}
+
+@mixin normal-font {
+  font-size: 16px;
+  font-family: "Segoe UI";
+}
+
+@mixin button-font {
+  font-size: 16px;
+  font-family: "Open Sans";
+}

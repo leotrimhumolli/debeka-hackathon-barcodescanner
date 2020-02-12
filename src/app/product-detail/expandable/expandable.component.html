@@ -1,0 +1,19 @@
+<div class="ion-padding">
+    <div class="header">
+        <ion-grid>
+            <ion-row (click)="expanded=!expanded">
+                <ion-col size="10" class="header-text">{{headline}}</ion-col>
+                <ion-col size="2">
+                    <ion-icon *ngIf="!expanded" style="padding-left: 1rem;" class="big ion-float-right"
+                              src="../../assets/icon_arrow_down.svg"></ion-icon>
+                    <ion-icon *ngIf="expanded" style="padding-left: 1rem;" class="big ion-float-right"
+                              src="../../assets/icon_arrow_up.svg"></ion-icon>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+    </div>
+    <div #expandWrapper class='expand-wrapper' [class.collapsed]="!expanded">
+        <ng-content></ng-content>
+    </div>
+</div>
+

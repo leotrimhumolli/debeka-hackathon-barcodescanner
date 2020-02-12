@@ -1,0 +1,28 @@
+.expand-wrapper {
+  transition: max-height 0.4s ease-in-out;
+  overflow: hidden;
+  height: auto;
+}
+
+.collapsed {
+  max-height: 0 !important;
+}
+
+.header {
+  background: black;
+  border-radius: 5px;
+}
+
+.header-text {
+  color: #fff;
+  text-transform: uppercase;
+
+}
+
+ion-icon {
+  &.big {
+    width: 16px;
+    height: 16px;
+  }
+}
+

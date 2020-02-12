@@ -1,0 +1,12 @@
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+    <linearGradient id="lg" x1="0.5" y1="1" x2="0.5" y2="0">
+        <stop offset="0%" stop-opacity="1" stop-color="#009efd"/>
+        <stop offset="40%" stop-opacity="1" stop-color="#39f5a7"/>
+        <stop offset="40%" stop-opacity="0" stop-color="royalblue"/>
+        <stop offset="100%" stop-opacity="0" stop-color="royalblue"/>
+    </linearGradient>
+    <title>Icon_animation</title>
+    <path class="cls-1"
+          d="M16.11,6.41a9.13,9.13,0,0,1,5.31-2.82,8.74,8.74,0,0,1,9.79,7.21,8.6,8.6,0,0,1-2.49,7.64C24.9,22.3,21.05,26.13,17.21,30c-.87.87-1.52.87-2.41,0C11,26.1,7.08,22.25,3.26,18.37a8.67,8.67,0,0,1-.89-11.3A8.58,8.58,0,0,1,13.25,4.43,25.42,25.42,0,0,1,16.11,6.41Z"
+          cx="50" cy="50" r="45" fill="url(#lg)" stroke="crimson" stroke-width="1"/>
+</svg>

@@ -20,18 +20,19 @@ DICE - Lebensmittel Barcode
     ionic serve
     ```
 
-3a. To view the app within an Android emulator run:
-    ```bash
-    ionic cordova emulate android
-    ```
+3a. To view the app within an Android emulator run
+```bash
+ionic cordova emulate android
+```
 
-3c. To view the app on a connected physical device run:
-    ```bash
-    ionic cordova run android
-    ```	
+3c. To view the app on a connected physical device run
+```bash
+ionic cordova run android
+```
 
 
-##App description
+## App description
+
 The idea was to create an application which will help people who can not read the ingredients of a certain product and make the possibility to hear the ingredients of a product in voice just after you scan the barcode of that product. 
 
 

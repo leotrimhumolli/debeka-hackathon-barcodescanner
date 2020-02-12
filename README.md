@@ -22,14 +22,14 @@ DICE - Lebensmittel Barcode
     ```
     
 4. To view the app within an Android emulator run
-```bash
-ionic cordova emulate android
-```
+    ```bash
+    ionic cordova emulate android
+    ```
 
 5. To view the app on a connected physical device run
-```bash
-ionic cordova run android
-```
+    ```bash
+    ionic cordova run android
+    ```
 
 
 ## App description

@@ -3,29 +3,30 @@ DICE - Lebensmittel Barcode
 
 ## Run the app locally
 
-1.Before proceeding, install Node.js and cordova ionic framework
+1. Before proceeding, install Node.js and cordova ionic framework
     ```bash
     npm install
     npm install -g cordova ionic	
     ```
-
+    
 2. Clone the repository and get into it
     ```bash
     git clone https://github.com/leotrimhumolli/debeka-hackathon-barcodescanner.git
     cd debeka-hackathon-barcodescanner
     ```
 ### There are three simple ways to run the application
+
 3. Run the application in the browser
     ```bash
     ionic serve
     ```
-
-3a. To view the app within an Android emulator run
+    
+4. To view the app within an Android emulator run
 ```bash
 ionic cordova emulate android
 ```
 
-3c. To view the app on a connected physical device run
+5. To view the app on a connected physical device run
 ```bash
 ionic cordova run android
 ```
